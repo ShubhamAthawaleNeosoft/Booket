@@ -1,0 +1,365 @@
+@font-face {
+  font-family: "Montserrat-semibold";
+  src: url("../../fonts/Montserrat/Montserrat-SemiBold.woff2") format("woff2"), url("../../fonts/Montserrat/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url("../../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2"), url("../../fonts/Montserrat/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.main_container {
+  margin: 0 64px;
+}
+
+@media screen and (max-width: 550px) {
+  .main_container {
+    margin: 0 30px;
+  }
+}
+.hide {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+header {
+  background-color: #502274;
+  font-family: "Montserrat-regular";
+}
+header nav .logo {
+  width: 35px;
+}
+header nav .nav-items {
+  width: 93%;
+}
+header nav .toggel_btn {
+  display: none;
+}
+header nav form {
+  font-size: 14px;
+}
+header nav form label {
+  font-family: "Montserrat-semibold";
+}
+header nav form button {
+  background-color: #FE7700;
+  font-weight: lighter;
+  font-size: 20px;
+}
+header nav form .date {
+  width: 140px;
+}
+header nav form .date input {
+  outline: none;
+}
+header nav form .location {
+  width: 150px;
+}
+header nav form .location input {
+  outline: none;
+}
+header nav form .looking-for {
+  width: 230px;
+}
+header nav form .looking-for input {
+  outline: none;
+  width: 230px;
+}
+header .mobile_screen form button {
+  background-color: #FE7700;
+  color: white;
+}
+header .mobile_screen form label {
+  font-family: "Montserrat-semibold";
+}
+header .mobile_screen form .looking-for input {
+  width: 230px;
+}
+
+.wishlist, .notification {
+  font-size: 26px;
+}
+
+footer {
+  background-color: #502274;
+  font-family: "Montserrat-regular";
+}
+footer h5, footer h6 {
+  font-family: "Montserrat-semibold";
+}
+footer .footer_info button {
+  background-color: #FE7700;
+  border: 1px solid #FE7700;
+  transition: all 0.5s ease-in-out;
+}
+footer .footer_info button:hover {
+  background-color: transparent;
+  border: 1px solid #FE7700;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+footer a:hover {
+  color: #FE7700;
+}
+footer li {
+  font-size: 14px;
+  padding-top: 6px;
+}
+footer .get_in_touch i {
+  color: #FE7700;
+}
+footer .follw-us-links i {
+  font-size: 22px;
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 30px);
+  right: 30px;
+  font-size: 40px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next i {
+  font-weight: lighter;
+}
+.owl-nav .owl-next i:hover {
+  background-color: transparent;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: 20px;
+  font-size: 40px !important;
+  z-index: 1;
+}
+.owl-nav .owl-prev i {
+  font-weight: lighter;
+}
+.owl-nav .owl-prev i:hover {
+  background-color: transparent;
+}
+
+.owl-theme .owl-dots {
+  margin-top: -40px;
+  z-index: 1;
+  position: relative;
+  font-size: 5px !important;
+}
+.owl-theme .owl-dots span {
+  height: 6px;
+  width: 6px;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: transparent;
+}
+
+.heading a {
+  color: #FE7700;
+  font-family: "Montserrat-semibold";
+  cursor: pointer;
+}
+.heading .horizontal-bar span:nth-child(1) {
+  width: 48px;
+  border: 2px solid #FE7700;
+}
+.heading .horizontal-bar span:nth-child(2) {
+  width: 24px;
+  border: 2px solid #FE7700;
+}
+.heading h1 {
+  font-family: "Montserrat-semibold";
+}
+
+.event_category {
+  margin: 30px 0;
+}
+.event_category .card {
+  background-color: #502274;
+  border-radius: 10px;
+  font-family: "Montserrat-regular";
+}
+.event_category .card .card-heading {
+  font-size: 24px;
+}
+.event_category .card .card-subheading {
+  font-size: 10px;
+}
+.event_category .card button i {
+  font-size: 18px;
+  color: #FE7700;
+}
+.event_category .music-card {
+  background: url(../images/music.png);
+  background-repeat: no-repeat;
+  background-position: right 10px bottom 10px;
+  width: 232px;
+  height: 176px;
+}
+.event_category .business-card {
+  background: url(../images/startup.png);
+  background-repeat: no-repeat;
+  background-position: right 10px bottom 10px;
+  width: 232px;
+  height: 176px;
+}
+.event_category .culture-card {
+  background: url(../images/art&culture.png);
+  background-repeat: no-repeat;
+  background-position: right 10px bottom 10px;
+  width: 232px;
+  height: 176px;
+}
+.event_category .film-card {
+  background: url(../images/film.png);
+  background-repeat: no-repeat;
+  background-position: right 10px bottom 10px;
+  width: 232px;
+  height: 176px;
+}
+.event_category .food-card {
+  background: url(../images/food.png);
+  background-repeat: no-repeat;
+  background-position: right 10px bottom 10px;
+  width: 232px;
+  height: 176px;
+}
+
+.events {
+  width: 292px;
+}
+.events .date {
+  color: #FE7700;
+  font-size: 12px;
+  font-family: "Montserrat-semibold";
+}
+.events h6 {
+  font-family: "Montserrat-semibold";
+}
+.events p {
+  color: #989898;
+  font-size: 12px;
+  font-family: "Montserrat-regular";
+}
+.events a {
+  color: #707070;
+  font-size: 25px;
+}
+.events .wishlist-icon {
+  margin-top: -18px;
+}
+.events .wishlist-icon span i {
+  font-size: 20px;
+  color: #707070;
+}
+.events .event-info {
+  width: 60%;
+}
+.events .share-link {
+  width: 25%;
+}
+.events .share-link div {
+  display: none;
+  position: absolute;
+}
+
+.featured-organization .card {
+  width: calc(20% - 15px);
+  border-radius: 10px;
+}
+.featured-organization .card a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #C8C7CC;
+}
+.featured-organization .card button {
+  border: 1px solid #FE7700;
+  transition: all 0.5s ease-in-out;
+  font-family: "Montserrat-semibold";
+}
+.featured-organization .card button:hover {
+  color: white;
+  background-color: #FE7700;
+}
+.featured-organization .card h6 {
+  font-family: "Montserrat-semibold";
+}
+.featured-organization .card p {
+  color: #989898;
+  font-size: 12px;
+  font-family: "Montserrat-regular";
+}
+.featured-organization .feature_img {
+  background-color: #EAEAEA;
+  padding: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+  .featured-organization {
+    justify-content: center !important;
+  }
+  .featured-organization .card {
+    min-width: 232px;
+    margin: 0 15px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .cards {
+    justify-content: center !important;
+  }
+
+  .featured-cards {
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .toggel_btn {
+    display: block !important;
+  }
+
+  .nav-links {
+    display: none !important;
+  }
+
+  .nav-items {
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  footer ul {
+    display: flex;
+  }
+  footer ul li:not(:last-child)::after {
+    content: "|";
+    padding: 0 10px;
+    color: #FE7700;
+  }
+}
+@media screen and (max-width: 800px) {
+  nav form {
+    display: none;
+  }
+
+  footer ul {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 650px) {
+  .featured-organization .card {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .event_category .card {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,14 @@
+.main_container{
+    margin: 0 64px;
+}
+@media screen and (max-width: 550px) {
+    .main_container{
+        margin: 0 30px;
+    }
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block !important;
+}

@@ -1,0 +1,64 @@
+header{
+    background-color: $primary_color;
+    font-family: $regular-montserrat;
+    nav {
+        .logo{
+            width: 35px;
+        }
+        .nav-items{
+            width: 93%;
+        }
+        .toggel_btn{
+            display: none;
+        }
+        form{
+            label{
+                font-family: $semibold-montserrat;
+            }
+            font-size: 14px;
+            button{
+                background-color: $secondary_color;
+                font-weight: lighter;
+                font-size: 20px;
+            }
+            .date{
+                width: 140px;
+                input{
+                    outline: none;
+                }
+            }
+            .location{
+                width: 150px;
+                input{
+                    outline: none;
+                }
+            }
+            .looking-for{
+                width: 230px;
+                input{
+                    outline: none;
+                    width: 230px;
+                }
+            }
+        }  
+    }
+    .mobile_screen{
+        form{
+            button{
+                // border: 1px solid $secondary_color;
+                background-color: $secondary_color;
+                color: white;
+            }
+            label{
+                font-family: $semibold-montserrat;
+            }
+            .looking-for input{
+                width: 230px;
+            }
+
+        }
+    }
+}
+.wishlist,.notification{
+    font-size: 26px;
+}

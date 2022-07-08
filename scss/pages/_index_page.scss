@@ -1,0 +1,202 @@
+// -----------------Event-Category------------------------
+.heading{
+    a{
+        color: $secondary_color;
+        font-family: $semibold-montserrat;
+        cursor: pointer;
+    }
+    .horizontal-bar span:nth-child(1){
+        width: 48px;
+        border: 2px solid $secondary_color;
+    }
+    .horizontal-bar span:nth-child(2){
+        width: 24px;
+        border: 2px solid $secondary_color;
+    }
+    h1{
+        font-family: $semibold-montserrat;
+    }
+}
+.event_category{
+    margin: 30px 0;
+    .card{
+        background-color: $primary_color;
+        border-radius: 10px;
+        font-family: $regular-montserrat;
+    .card-heading{
+            font-size: 24px;
+        }
+    .card-subheading{
+            font-size: 10px;
+        }
+    button{
+        i{
+            font-size: 18px;
+            color: $secondary_color;
+        }
+        }      
+}
+.music-card {
+    background: url(../images/music.png);
+    @include card-bg;
+}
+.business-card{
+    background: url(../images/startup.png);
+    @include card-bg;
+}
+.culture-card{
+    background: url(../images/art&culture.png);
+    @include card-bg;
+}
+.film-card{
+    background: url(../images/film.png);
+    @include card-bg;
+}
+.food-card{
+    background: url(../images/food.png);
+    @include card-bg;
+}
+
+}
+// -----------------Events------------------------
+.events{
+    width: 292px;
+    .date{
+        color: $secondary_color;
+        font-size: 12px;
+        font-family: $semibold-montserrat;
+    }
+    h6{
+        font-family: $semibold-montserrat;
+    }
+    p{
+        color: #989898;
+        font-size: 12px;
+        font-family: $regular-montserrat;
+    }
+    a{
+        color: #707070;
+        font-size: 25px;
+    }
+    .wishlist-icon{
+        margin-top: -18px;
+        span i{
+        font-size: 20px;
+        color: #707070;
+    }
+    }
+    .event-info{
+        width: 60%;
+    }
+    .share-link{
+        width: 25%;
+        div{
+            display: none;position: absolute;
+         
+        }
+    }
+}
+
+// -----------------featured-organization------------------------
+.featured-organization{
+    .card{
+        // min-width: 232px;
+        width: calc(100%/5 - 15px);
+        border-radius: 10px;
+        a{
+            font-size: 30px;
+            text-decoration: none;
+            color: #C8C7CC;
+        }
+        button{
+            border: 1px solid $secondary_color;
+            transition: all 0.5s ease-in-out;
+            font-family: $semibold-montserrat;
+
+        }
+        button:hover{
+            color: white;
+            background-color: $secondary_color;
+        }
+        h6{
+            font-family: $semibold-montserrat;
+        }
+        p{
+            color: #989898;
+            font-size: 12px;
+            font-family: $regular-montserrat;
+        }
+    }
+    .feature_img{
+        background-color: $lightgray;
+        padding: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .featured-organization{
+        .card{
+            min-width: 232px;
+            margin: 0 15px;
+        }
+        justify-content: center !important;
+    }
+  }
+@media screen and (max-width: 1200px) {
+    .cards{
+        justify-content: center !important;
+    }
+    .featured-cards{
+        justify-content: center !important;
+    }
+  }
+ 
+@media screen and (max-width: 1100px) {
+    .toggel_btn{
+        display: block !important;
+    }
+    .nav-links{
+        display: none !important;
+    }
+    .nav-items{
+        justify-content: center !important;
+    }
+}
+@media screen and (max-width: 992px) {
+  footer{
+    ul{
+    display: flex;
+    li:not(:last-child)::after{
+        content: "|";
+        padding: 0 10px;
+        color: $secondary_color;
+    }
+   }
+}
+
+}
+@media screen and (max-width: 800px) {
+   nav form{
+    display: none;
+   }
+   footer{
+    ul{
+        flex-wrap: wrap;
+    }
+   }
+}
+@media screen and (max-width: 650px) {
+    .featured-organization{
+        .card{
+            width: 100%;
+            margin: 0px;
+        }
+    }
+    .event_category{
+        .card{
+            width: 100%;
+        }
+    }
+   
+ }

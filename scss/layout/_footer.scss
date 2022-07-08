@@ -1,0 +1,38 @@
+footer{
+    background-color: $primary_color;
+    h5,h6{
+        font-family: $semibold-montserrat;
+    }
+    .footer_info{
+        button{
+            background-color: $secondary_color;
+            border: 1px solid  $secondary_color;
+            transition: all 0.5s ease-in-out;
+        }
+        button:hover{
+            background-color: transparent;
+            border: 1px solid  $secondary_color;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.5s ease-in-out;
+    }
+    a:hover{
+        color: $secondary_color;
+    }
+    li{
+        font-size: 14px;
+        padding-top: 6px;
+    }
+    font-family: $regular-montserrat;
+    .get_in_touch i{
+        color: $secondary_color;
+    }
+    .follw-us-links{
+        i{
+            font-size: 22px;
+        }
+    }
+}
